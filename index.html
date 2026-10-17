@@ -175,7 +175,11 @@ img,svg{display:block;max-width:100%}
 .trust b{display:block;margin-bottom:2px}
 .trust span,.foot p{color:var(--muted)}
 footer{background:#fff;border-top:1px solid var(--line);margin-top:10px}
-.foot{max-width:1440px;margin:0 auto;padding:28px 20px 18px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1.3fr;gap:20px}
+.foot{max-width:1440px;margin:0 auto;padding:28px 20px 18px;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.3fr;gap:20px}
+.guide-text{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.guide-text p{margin:0 0 8px;color:#4b5563;line-height:1.65}
+.guide-text p:last-child{margin:0}
+.guide-text a{color:var(--accent);font-weight:800;text-decoration:underline;text-underline-offset:2px}
 .foot strong{display:block;margin-bottom:8px}
 .foot a,.foot button.texty{display:block;background:none;border:0;padding:4px 0;color:#4b5563;text-align:left;font-weight:600}
 .news div{display:flex;gap:6px;margin-top:8px}
@@ -397,6 +401,11 @@ footer{background:#fff;border-top:1px solid var(--line);margin-top:10px}
         <article><b>Faturalı satış</b><span>Tüm modeller KDV dahil fiyatla listelenir.</span></article>
         <article><b>7/24 destek</b><span>Kurulum ve yayın erişimi için mağaza hattı.</span></article>
       </section>
+      <section class="block guide-text" aria-labelledby="rehberBaslik">
+        <h2 id="rehberBaslik">IPTV fiyatları ve modelleri hakkında</h2>
+        <p>Bu sayfada IPTV abonelik paketlerini, Android TV box ve yayın çubuğu modellerini fiyat, puan ve özelliğe göre karşılaştırabilirsin. Süreli erişim arıyorsan <a href="https://www.iptv-uyelik.vip/">IPTV üyelik</a> paketlerinde ücretsiz test, 6 aylık ve 12 aylık seçenekleri inceleyebilirsin.</p>
+        <p>Canlı maç, film ve diziyi Smart TV, telefon ve bilgisayarda 4K kalitede nasıl izleyeceğini merak ediyorsan <a href="https://www.iptv-izle.vip/">IPTV izle</a> rehberinde kurulum adımları ve internet hızı önerileri yer alıyor. Cihaz seçerken 4K yayın için en az 25 Mbps hat ve Wi-Fi 6 destekli bir kutu tercih etmeni öneririz.</p>
+      </section>
     </section>
   </div>
 </main>
@@ -419,6 +428,11 @@ footer{background:#fff;border-top:1px solid var(--line);margin-top:10px}
       <button class="texty" type="button" id="footOrders">Siparişlerim</button>
       <button class="texty" type="button" id="footFav">Favorilerim</button>
       <button class="texty" type="button" id="footShip">Kargo ve iade</button>
+    </div>
+    <div>
+      <strong>IPTV rehberi</strong>
+      <a href="https://www.iptv-uyelik.vip/">IPTV üyelik</a>
+      <a href="https://www.iptv-izle.vip/">IPTV izle</a>
     </div>
     <form class="news" id="news">
       <strong>Bülten</strong>
